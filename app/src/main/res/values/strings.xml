@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Chalk</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="fab_button">Fab Button</string>
+    <string name="enter_a_max">Enter a Max</string>
+    <string name="one_rep_max">One rep max</string>
+    <string name="_65_75_85">65–75–85</string>
+    <string name="_70_80_90">70–80–90</string>
+    <string name="_75_85_95">75–85–95</string>
+    <string name="deadlift_hint">Deadlift</string>
+    <string name="deadlift_label">Deadlift:</string>
+    <string name="bench_label">Bench:</string>
+    <string name="squat_label">Squat:</string>
+    <string name="shoulder_press_label">Shoulder Press:</string>
+    <string name="bench_hint">Bench</string>
+    <string name="squat_hint">Squat</string>
+    <string name="shoulder_press_hint">Shoulder Press</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="configure_maxes">Configure Maxes</string>
+</resources>

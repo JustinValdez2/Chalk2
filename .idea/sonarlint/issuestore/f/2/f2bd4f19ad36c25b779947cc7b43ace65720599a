@@ -1,0 +1,66 @@
+
+—
+java:S1186F"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Í€
+G
+java:S1172™"0Remove this unused method parameter "viewParam".(×Ü
+J
+java:S1172®"4Remove this unused method parameter "fragmentParam".(Ó¬”K
+L
+java:S1172Ë"0Remove this unused method parameter "viewParam".(·”ÌÔûÿÿÿÿ
+K
+java:S1172Ü"4Remove this unused method parameter "activityParam".(òö’Ö
+S
+java:S1172"<Remove this unused method parameter "savedStateHandleParam".(©˜¦Ü
+O
+java:S1172Û"3Remove this unused method parameter "serviceParam".(¾¶–Õûÿÿÿÿ
+<
+java:S33987"&Move this method into "ActivityCImpl".(â„´İ
+E
+java:S1068".Remove this unused "singletonC" private field.(íÏÙ’
+U
+java:S1068"9Remove this unused "activityRetainedCImpl" private field.(Äò” øÿÿÿÿ
+M
+java:S1068‘"1Remove this unused "activityCImpl" private field.(’ŸÑÂøÿÿÿÿ
+M
+java:S1068“"1Remove this unused "fragmentCImpl" private field.(‡§Ş£úÿÿÿÿ
+P
+java:S1068•"9Remove this unused "viewWithFragmentCImpl" private field.(ÿ‚§¶
+E
+java:S1068Â".Remove this unused "singletonC" private field.(íÏÙ’
+U
+java:S1068Ä"9Remove this unused "activityRetainedCImpl" private field.(Äò” øÿÿÿÿ
+M
+java:S1068Æ"1Remove this unused "activityCImpl" private field.(’ŸÑÂøÿÿÿÿ
+D
+java:S1068È"-Remove this unused "viewCImpl" private field.(ôŸ›Ó
+E
+java:S1068ˆ".Remove this unused "singletonC" private field.(íÏÙ’
+U
+java:S1068Š"9Remove this unused "activityRetainedCImpl" private field.(Äò” øÿÿÿÿ
+I
+java:S1068Œ"2Remove this unused "viewModelCImpl" private field.(²ìÀ÷
+E
+java:S1068»".Remove this unused "singletonC" private field.(íÏÙ’
+U
+java:S1068½"9Remove this unused "activityRetainedCImpl" private field.(Äò” øÿÿÿÿ
+E
+java:S1068Ö".Remove this unused "singletonC" private field.(íÏÙ’
+G
+java:S1068Ø"0Remove this unused "serviceCImpl" private field.(¬’£¦
+g
+java:S1301Ë"KReplace this "switch" statement by "if" statements to increase readability.(Ò“ÿšùÿÿÿÿ
+a	java:S101("MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(şš–
+;
+java:S1700•"$Rename field "viewWithFragmentCImpl"(ÿ‚§¶
+8
+java:S1700ª"Rename field "fragmentCImpl"(‘Áñ§üÿÿÿÿ
+/
+java:S1700È"Rename field "viewCImpl"(ôŸ›Ó
+3
+java:S1700Ù"Rename field "activityCImpl"(ö…¬š
+4
+java:S1700Œ"Rename field "viewModelCImpl"(²ìÀ÷
+;
+java:S1700Ÿ"$Rename field "activityRetainedCImpl"(ÔÃŸ
+2
+java:S1700Ø"Rename field "serviceCImpl"(¬’£¦

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workoutconfiguration.WorkoutConfigurationView">
+
+    <TextView
+        android:id="@+id/lblDeadLlift"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/txt_box_height"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/deadlift_label"
+        android:textSize="@dimen/label_sizes"
+        app:layout_constraintEnd_toStartOf="@+id/txtDeadlift"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblBench"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/txt_box_height"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/bench_label"
+        android:textSize="@dimen/label_sizes"
+        app:layout_constraintEnd_toStartOf="@+id/txtBench"
+        app:layout_constraintTop_toBottomOf="@+id/lblDeadLlift" />
+
+    <TextView
+        android:id="@+id/lblSquat"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/txt_box_height"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/squat_label"
+        android:textSize="@dimen/label_sizes"
+        app:layout_constraintEnd_toStartOf="@+id/txtSquat"
+        app:layout_constraintTop_toBottomOf="@+id/lblBench" />
+
+    <TextView
+        android:id="@+id/lblShoulderPress"
+        android:layout_width="157dp"
+        android:layout_height="@dimen/txt_box_height"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/shoulder_press_label"
+        android:textSize="@dimen/long_label_txt_size"
+        app:layout_constraintEnd_toStartOf="@+id/txtShoulderPress"
+        app:layout_constraintTop_toBottomOf="@+id/lblSquat" />
+
+    <EditText
+        android:id="@+id/txtDeadlift"
+        android:layout_width="160dp"
+        android:layout_height="@dimen/txt_box_height"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="Deadlift Max"
+        android:ems="10"
+        android:hint="@string/deadlift_hint"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="@dimen/label_sizes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtBench"
+        android:layout_width="160dp"
+        android:layout_height="@dimen/txt_box_height"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="Bench Max"
+        android:ems="10"
+        android:hint="@string/bench_hint"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="@dimen/label_sizes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDeadlift" />
+
+    <EditText
+        android:id="@+id/txtSquat"
+        android:layout_width="160dp"
+        android:layout_height="@dimen/txt_box_height"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="Squat Max"
+        android:ems="10"
+        android:hint="@string/squat_hint"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="@dimen/label_sizes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBench" />
+
+    <EditText
+        android:id="@+id/txtShoulderPress"
+        android:layout_width="160dp"
+        android:layout_height="@dimen/txt_box_height"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="Shoulder Press Max"
+        android:ems="10"
+        android:hint="@string/shoulder_press_hint"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="@dimen/long_label_txt_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSquat" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/save_button"
+        app:layout_constraintEnd_toStartOf="@+id/btnCancel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblShoulderPress" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="64dp"
+        android:text="@string/cancel_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtShoulderPress" />
+</androidx.constraintlayout.widget.ConstraintLayout>

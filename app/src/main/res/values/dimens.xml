@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="button_height">70dp</dimen>
+    <dimen name="label_sizes">25sp</dimen>
+    <dimen name="txt_box_height">50dp</dimen>
+    <dimen name="button_width">114dp</dimen>
+    <dimen name="long_label_txt_size">22sp</dimen>
+</resources>
